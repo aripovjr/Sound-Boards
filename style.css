@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(161, 100, 223);
+}
+
+.btn{
+    background-color: rebeccapurple;
+    border: 0;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px 30px;
+    color: #fff;
+    font: inherit;
+    font-weight: bold;
+    font-size: 20px;
+}
